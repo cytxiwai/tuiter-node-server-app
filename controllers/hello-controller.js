@@ -5,7 +5,7 @@ const HelloController = (app) => {
     })  //if the server received a get request, need a path and a handler function
 
     app.get('/', (req, res) => {
-        res.send('Wlcome to Full Stack Development!')
+        res.send('Welcome to Full Stack Development!')
     })
 
     app.get('/add/:a/:b', (req, res) => {
